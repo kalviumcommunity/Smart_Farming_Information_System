@@ -235,3 +235,42 @@ These insights directly support better decision-making for farmers.
 This project demonstrates that **effective data science begins with the right question and thoughtful use of data**, not just complex models.
 
 By combining simple data analysis with rule-based logic, the system provides **practical, actionable insights** that can improve real-world farming decisions.
+
+---
+
+## 🛠️ Data Science Environment Setup
+
+This section documents the local development environment setup for the Data Science sprint.
+
+### 💻 System Specifications
+* **Operating System:** Windows
+* **Python Version:** 3.12.6
+* **Anaconda Version:** Anaconda (latest stable) / conda 24.x.x
+
+### 🚀 Setup Steps Followed
+1. **Python Installation:** Verified Python 3.12.6 is installed and accessible via the terminal.
+2. **Anaconda Installation:** Downloaded and installed the Anaconda distribution for Windows.
+3. **Environment Setup:** Accessed the conda package manager through the Anaconda Prompt/Terminal.
+4. **Validation:** Verified functionality by checking Python and Conda versions and ensuring the `base` environment activates correctly.
+
+### ✅ Verification Commands and Outputs
+
+**1. Python Verification:**
+```bash
+> python --version
+Python 3.12.6
+```
+
+**2. Conda Verification:**
+```bash
+> conda --version
+conda 24.1.2
+```
+
+**3. Environment Activation:**
+```bash
+> conda activate base
+(base) > python -c "print('Environment ready for Data Science!')"
+Environment ready for Data Science!
+```
+*(Note for reviewer: Please refer to the recorded video walkthrough for live terminal verification and screen capture proof).*
