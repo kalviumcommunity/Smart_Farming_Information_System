@@ -28,7 +28,6 @@ This project provides a centralized platform that helps farmers:
 * Understand seasonal demand 📊
 
 The system uses **lightweight Python tools and rule-based logic**, making it accessible and easy to run even on basic systems.
-
 ---
 
 ## 🧩 Features
