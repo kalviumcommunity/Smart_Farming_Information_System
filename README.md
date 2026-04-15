@@ -273,4 +273,91 @@ conda 24.1.2
 (base) > python -c "print('Environment ready for Data Science!')"
 Environment ready for Data Science!
 ```
-*(Note for reviewer: Please refer to the recorded video walkthrough for live terminal verification and screen capture proof).*
+**Verifying Python, Conda, and Jupyter Installation**
+
+## ✅ Environment Verification
+
+### 🖥️ Operating System
+
+* Windows (PowerShell / Anaconda Prompt)
+
+### 🐍 Python Version
+
+```bash
+python --version
+```
+
+Output:
+
+```text
+3.13.9 | packaged by Anaconda, Inc.
+```
+
+---
+
+### 🧪 Conda Version
+
+```bash
+conda --version
+```
+
+Output:
+
+```text
+conda 25.11.1
+```
+
+---
+
+### 📦 Conda Environment
+
+```bash
+conda env list
+```
+
+Output:
+
+```text
+# conda environments:
+#
+# * -> active
+base                 *   C:\ProgramData\anaconda3
+```
+
+* Active environment: `base`
+
+---
+
+### 📓 Jupyter Verification
+
+#### Launch Command
+
+```bash
+jupyter notebook
+```
+
+#### Test Code Executed
+
+```python
+import sys
+print(sys.version)
+
+print("Environment verified successfully 🚀")
+```
+
+#### Output
+
+```text
+3.13.9 | packaged by Anaconda, Inc.
+Environment verified successfully 🚀
+```
+
+---
+
+### ✅ Status
+
+* Python is working correctly
+* Conda environments are functional
+* Jupyter Notebook launches and executes code successfully
+
+**✔ Environment is fully verified and ready for Data Science workflows**
