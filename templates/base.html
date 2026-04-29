@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgriSmart</title>
+
+    <!-- GLOBAL CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- PAGE-SPECIFIC CSS -->
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">🌱 AgriSmart</div>
+
+    <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="#">Insights</a></li>
+        <li><a href="#">Impact</a></li>
+        <li><a href="/login">Login</a></li>
+    </ul>
+ <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn">🌙</button>
+        <a href="#" class="cta-btn">Get Started</a>
+    </div>
+    <!-- <a href="/dashboard" class="cta-btn">Get Started</a> -->
+</nav>
+
+{% block content %}{% endblock %}
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

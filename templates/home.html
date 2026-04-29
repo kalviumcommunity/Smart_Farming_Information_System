@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="hero fade-in">
+
+    <div class="hero-left">
+        <h1>Data-driven Farming Decisions</h1>
+        <p>
+            Analyze weather trends, market data, and soil conditions
+            to make smarter crop choices.
+        </p>
+
+        <a href="/dashboard" class="btn">Explore Dashboard</a>
+    </div>
+
+    <div class="hero-right">
+        <img src="/static/images/hero.jpg" alt="farm">
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+
+    <div class="card fade-in">
+        <h3>📊 Analytics</h3>
+        <p>Visualize rainfall, temperature, and price trends.</p>
+    </div>
+
+    <div class="card fade-in">
+        <h3>🌾 Smart Recommendation</h3>
+        <p>Get crop suggestions based on multiple factors.</p>
+    </div>
+
+    <div class="card fade-in">
+        <h3>📈 Market Insights</h3>
+        <p>Understand demand and price fluctuations.</p>
+    </div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Start Making Better Farming Decisions</h2>
+    <a href="/dashboard" class="btn">Go to Dashboard</a>
+</section>
+
+{% endblock %}

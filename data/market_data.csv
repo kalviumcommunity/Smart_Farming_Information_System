@@ -1,0 +1,112 @@
+year,state,district,crop,avg_market_price,avg_demand
+2019,Andhra Pradesh,Visakhapatnam,Rice,2100,High
+2020,Andhra Pradesh,Visakhapatnam,Rice,2200,High
+2021,Andhra Pradesh,Visakhapatnam,Rice,2300,Medium
+
+2019,Arunachal Pradesh,Itanagar,Maize,1800,Medium
+2020,Arunachal Pradesh,Itanagar,Maize,1900,High
+2021,Arunachal Pradesh,Itanagar,Maize,2000,High
+
+2019,Assam,Guwahati,Tea,3500,High
+2020,Assam,Guwahati,Tea,3600,Medium
+2021,Assam,Guwahati,Tea,3800,High
+
+2019,Bihar,Patna,Wheat,1800,Medium
+2020,Bihar,Patna,Wheat,2000,High
+2021,Bihar,Patna,Wheat,2200,High
+
+2019,Chhattisgarh,Raipur,Rice,2000,High
+2020,Chhattisgarh,Raipur,Rice,2100,High
+2021,Chhattisgarh,Raipur,Rice,2300,Medium
+
+2019,Goa,Panaji,Coconut,2500,High
+2020,Goa,Panaji,Coconut,2700,High
+2021,Goa,Panaji,Coconut,2900,Medium
+
+2019,Gujarat,Ahmedabad,Groundnut,4100,Medium
+2020,Gujarat,Ahmedabad,Groundnut,4300,High
+2021,Gujarat,Ahmedabad,Groundnut,4500,High
+
+2019,Haryana,Karnal,Wheat,1850,High
+2020,Haryana,Karnal,Wheat,2000,Medium
+2021,Haryana,Karnal,Wheat,2200,High
+
+2019,Himachal Pradesh,Shimla,Apple,3000,High
+2020,Himachal Pradesh,Shimla,Apple,3200,High
+2021,Himachal Pradesh,Shimla,Apple,3500,High
+
+2019,Jharkhand,Ranchi,Maize,1700,Medium
+2020,Jharkhand,Ranchi,Maize,1800,High
+2021,Jharkhand,Ranchi,Maize,2000,High
+
+2019,Karnataka,Mysore,Maize,1800,Medium
+2020,Karnataka,Mysore,Maize,1950,High
+2021,Karnataka,Mysore,Maize,2100,High
+
+2019,Kerala,Kochi,Spices,6000,High
+2020,Kerala,Kochi,Spices,6300,Medium
+2021,Kerala,Kochi,Spices,6500,High
+
+2019,Madhya Pradesh,Indore,Soybean,3500,High
+2020,Madhya Pradesh,Indore,Soybean,3700,High
+2021,Madhya Pradesh,Indore,Soybean,3900,Medium
+
+2019,Maharashtra,Nagpur,Cotton,5100,High
+2020,Maharashtra,Nagpur,Cotton,5300,Medium
+2021,Maharashtra,Nagpur,Cotton,5500,High
+
+2019,Manipur,Imphal,Rice,2000,High
+2020,Manipur,Imphal,Rice,2100,Medium
+2021,Manipur,Imphal,Rice,2300,High
+
+2019,Meghalaya,Shillong,Potato,2500,Medium
+2020,Meghalaya,Shillong,Potato,2700,High
+2021,Meghalaya,Shillong,Potato,3000,High
+
+2019,Mizoram,Aizawl,Maize,1600,Medium
+2020,Mizoram,Aizawl,Maize,1700,High
+2021,Mizoram,Aizawl,Maize,1800,High
+
+2019,Nagaland,Kohima,Rice,2100,High
+2020,Nagaland,Kohima,Rice,2200,Medium
+2021,Nagaland,Kohima,Rice,2400,High
+
+2019,Odisha,Bhubaneswar,Rice,2000,High
+2020,Odisha,Bhubaneswar,Rice,2200,Medium
+2021,Odisha,Bhubaneswar,Rice,2400,High
+
+2019,Punjab,Ludhiana,Wheat,1850,High
+2020,Punjab,Ludhiana,Wheat,2000,Medium
+2021,Punjab,Ludhiana,Wheat,2200,High
+
+2019,Rajasthan,Jaipur,Millets,2500,Medium
+2020,Rajasthan,Jaipur,Millets,2700,High
+2021,Rajasthan,Jaipur,Millets,2900,High
+
+2019,Sikkim,Gangtok,Vegetables,3000,High
+2020,Sikkim,Gangtok,Vegetables,3200,High
+2021,Sikkim,Gangtok,Vegetables,3500,High
+
+2019,Tamil Nadu,Coimbatore,Millets,2500,Medium
+2020,Tamil Nadu,Coimbatore,Millets,2700,High
+2021,Tamil Nadu,Coimbatore,Millets,2900,High
+
+2019,Telangana,Hyderabad,Cotton,5000,High
+2020,Telangana,Hyderabad,Cotton,5200,Medium
+2021,Telangana,Hyderabad,Cotton,5400,High
+
+2019,Tripura,Agartala,Rice,1900,Medium
+2020,Tripura,Agartala,Rice,2100,High
+2021,Tripura,Agartala,Rice,2300,High
+
+2019,Uttar Pradesh,Kanpur,Sugarcane,3100,High
+2020,Uttar Pradesh,Kanpur,Sugarcane,3300,Medium
+2021,Uttar Pradesh,Kanpur,Sugarcane,3500,High
+
+2019,Uttarakhand,Dehradun,Vegetables,2800,High
+2020,Uttarakhand,Dehradun,Vegetables,3000,High
+2021,Uttarakhand,Dehradun,Vegetables,3200,Medium
+
+2019,West Bengal,Kolkata,Rice,2050,High
+2020,West Bengal,Kolkata,Rice,2200,High
+2021,West Bengal,Kolkata,Rice,2400,Medium

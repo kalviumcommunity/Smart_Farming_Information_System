@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/dasboard.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
+
+    <!-- INPUT PANEL -->
+    <div class="input-panel glass">
+
+        <div class="form-group">
+            <label>Soil Type</label>
+            <select id="soil">
+                <option value="Alluvial">Alluvial</option>
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Laterite">Laterite</option>
+                <option value="Sandy">Sandy</option>
+                <option value="Loamy">Loamy</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Place Name</label>
+            <input type="text" id="placeInput" placeholder="e.g. Kolkata">
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn primary" id="locationBtn">🌍 Use Location</button>
+<button type="button" class="btn secondary" id="enterBtn">Enter</button>
+        </div>
+
+    </div>
+
+    <!-- WEATHER CARD -->
+    <div id="weatherInfo" class="weather-card glass">
+        📍 Location | 🌡️ Temp | 🌧️ Rain
+    </div>
+
+    <!-- RESULT CARD -->
+    <div id="result" class="result-card glass">
+        🌾 Crop recommendation will appear here
+    </div>
+
+    <!-- CHART SECTION -->
+    <div class="charts">
+
+        <div class="chart-card glass">
+            <h4>🌧️ Rainfall Trend</h4>
+            <canvas id="rainChart"></canvas>
+        </div>
+
+        <div class="chart-card glass">
+            <h4>🌡️ Temperature Trend</h4>
+            <canvas id="tempChart"></canvas>
+        </div>
+
+        <div class="chart-card glass">
+            <h4>💰 Price Trend</h4>
+            <canvas id="priceChart"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+{% endblock %}
