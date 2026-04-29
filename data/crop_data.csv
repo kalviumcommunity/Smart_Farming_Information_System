@@ -1,0 +1,112 @@
+year,state,crop,temperature,rainfall,soil,price,demand
+2019,Andhra Pradesh,Rice,30,600,alluvial,2100,High
+2020,Andhra Pradesh,Rice,31,650,alluvial,2200,High
+2021,Andhra Pradesh,Rice,29,620,alluvial,2300,Medium
+
+2019,Arunachal Pradesh,Maize,22,800,loamy,1700,Medium
+2020,Arunachal Pradesh,Maize,23,820,loamy,1800,High
+2021,Arunachal Pradesh,Maize,24,810,loamy,1900,High
+
+2019,Assam,Tea,24,300,loamy,3500,High
+2020,Assam,Tea,25,320,loamy,3600,Medium
+2021,Assam,Tea,26,310,loamy,3700,High
+
+2019,Bihar,Wheat,23,100,alluvial,1800,Medium
+2020,Bihar,Wheat,24,110,alluvial,2000,High
+2021,Bihar,Wheat,25,105,alluvial,2200,High
+
+2019,Chhattisgarh,Rice,29,700,clay,2000,High
+2020,Chhattisgarh,Rice,30,720,clay,2100,High
+2021,Chhattisgarh,Rice,28,710,clay,2300,Medium
+
+2019,Goa,Coconut,28,400,coastal,2500,High
+2020,Goa,Coconut,29,420,coastal,2700,High
+2021,Goa,Coconut,30,410,coastal,2900,Medium
+
+2019,Gujarat,Groundnut,31,500,sandy,4000,Medium
+2020,Gujarat,Groundnut,32,520,sandy,4200,High
+2021,Gujarat,Groundnut,30,510,sandy,4400,High
+
+2019,Haryana,Wheat,22,90,alluvial,1850,High
+2020,Haryana,Wheat,24,95,alluvial,2000,Medium
+2021,Haryana,Wheat,23,92,alluvial,2200,High
+
+2019,Himachal Pradesh,Apple,18,150,loamy,3000,High
+2020,Himachal Pradesh,Apple,19,160,loamy,3200,High
+2021,Himachal Pradesh,Apple,17,155,loamy,3500,High
+
+2019,Jharkhand,Maize,25,400,red,1700,Medium
+2020,Jharkhand,Maize,26,420,red,1800,High
+2021,Jharkhand,Maize,24,410,red,2000,High
+
+2019,Karnataka,Maize,28,700,laterite,1800,Medium
+2020,Karnataka,Maize,29,720,laterite,1900,High
+2021,Karnataka,Maize,27,710,laterite,2000,High
+
+2019,Kerala,Spices,29,350,forest,6000,High
+2020,Kerala,Spices,30,370,forest,6200,Medium
+2021,Kerala,Spices,28,360,forest,6400,High
+
+2019,Madhya Pradesh,Soybean,27,500,black,3500,High
+2020,Madhya Pradesh,Soybean,28,520,black,3700,High
+2021,Madhya Pradesh,Soybean,26,510,black,3900,Medium
+
+2019,Maharashtra,Cotton,30,600,black,5000,High
+2020,Maharashtra,Cotton,32,650,black,5200,Medium
+2021,Maharashtra,Cotton,31,620,black,5400,High
+
+2019,Manipur,Rice,26,600,clay,2000,High
+2020,Manipur,Rice,27,620,clay,2100,Medium
+2021,Manipur,Rice,25,610,clay,2300,High
+
+2019,Meghalaya,Potato,20,700,loamy,2500,Medium
+2020,Meghalaya,Potato,21,720,loamy,2700,High
+2021,Meghalaya,Potato,19,710,loamy,3000,High
+
+2019,Mizoram,Maize,24,650,loamy,1600,Medium
+2020,Mizoram,Maize,25,670,loamy,1700,High
+2021,Mizoram,Maize,23,660,loamy,1800,High
+
+2019,Nagaland,Rice,25,500,clay,2100,High
+2020,Nagaland,Rice,26,520,clay,2200,Medium
+2021,Nagaland,Rice,24,510,clay,2400,High
+
+2019,Odisha,Rice,28,650,clay,2000,High
+2020,Odisha,Rice,29,670,clay,2200,Medium
+2021,Odisha,Rice,27,660,clay,2400,High
+
+2019,Punjab,Wheat,22,80,loamy,1800,High
+2020,Punjab,Wheat,24,90,loamy,1900,Medium
+2021,Punjab,Wheat,23,85,loamy,2000,High
+
+2019,Rajasthan,Millets,30,300,sandy,2500,Medium
+2020,Rajasthan,Millets,32,320,sandy,2700,High
+2021,Rajasthan,Millets,31,310,sandy,2900,High
+
+2019,Sikkim,Vegetables,18,400,loamy,3000,High
+2020,Sikkim,Vegetables,19,420,loamy,3200,High
+2021,Sikkim,Vegetables,17,410,loamy,3500,High
+
+2019,Tamil Nadu,Millets,33,400,red,2500,Medium
+2020,Tamil Nadu,Millets,34,420,red,2600,High
+2021,Tamil Nadu,Millets,32,410,red,2700,High
+
+2019,Telangana,Cotton,31,550,black,5000,High
+2020,Telangana,Cotton,32,570,black,5200,Medium
+2021,Telangana,Cotton,30,560,black,5400,High
+
+2019,Tripura,Rice,27,600,clay,1900,Medium
+2020,Tripura,Rice,28,620,clay,2100,High
+2021,Tripura,Rice,26,610,clay,2300,High
+
+2019,Uttar Pradesh,Sugarcane,26,110,alluvial,3000,High
+2020,Uttar Pradesh,Sugarcane,27,120,alluvial,3200,Medium
+2021,Uttar Pradesh,Sugarcane,28,115,alluvial,3400,High
+
+2019,Uttarakhand,Vegetables,20,300,loamy,2800,High
+2020,Uttarakhand,Vegetables,21,320,loamy,3000,High
+2021,Uttarakhand,Vegetables,19,310,loamy,3200,Medium
+
+2019,West Bengal,Rice,28,250,clay,2000,High
+2020,West Bengal,Rice,29,270,clay,2100,High
+2021,West Bengal,Rice,27,240,clay,2300,Medium

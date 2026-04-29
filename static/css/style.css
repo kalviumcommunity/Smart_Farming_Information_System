@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fafafa;
+    color: #222;
+    transition: all 0.3s ease;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.cta-btn {
+    background: #2e7d32;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 52px;
+    color: #1b5e20;
+}
+
+.hero-left p {
+    margin: 20px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.btn {
+    background: #2e7d32;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-right img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h3 {
+    color: #222;
+}
+
+.card p {
+    color: #555;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 60px;
+    background: #e8f5e9;
+}
+
+.cta h2 {
+    color: #1b5e20;
+}
+
+/* THEME BUTTON */
+.theme-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* ================= DARK MODE ================= */
+
+.dark-mode {
+    background: #121212;
+    color: #e0e0e0;
+}
+
+/* NAVBAR */
+.dark-mode .navbar {
+    background: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+.dark-mode .nav-links a {
+    color: #ddd;
+}
+
+/* HERO */
+.dark-mode .hero-left h1 {
+    color: #81c784;
+}
+
+.dark-mode .hero-left p {
+    color: #bbb;
+}
+
+/* BUTTONS */
+.dark-mode .cta-btn,
+.dark-mode .btn {
+    background: #388e3c;
+}
+
+/* CARDS */
+.dark-mode .card {
+    background: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+.dark-mode .card h3 {
+    color: #ffffff;
+}
+
+.dark-mode .card p {
+    color: #cccccc;
+}
+
+/* CTA */
+.dark-mode .cta {
+    background: #1b1b1b;
+}
+
+.dark-mode .cta h2 {
+    color: #ffffff;
+}
+
+/* GLOBAL TEXT FIX (VERY IMPORTANT) */
+.dark-mode p {
+    color: #cccccc;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #ffffff;
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* DARK MODE GLASS */
+.dark-mode .glass {
+    background: rgba(30, 30, 30, 0.6);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* FADE IN */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* BUTTON HOVER */
+.btn:hover {
+    background: #1b5e20;
+    transform: scale(1.05);
+}
