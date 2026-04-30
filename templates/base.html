@@ -8,6 +8,9 @@
 
     <!-- PAGE-SPECIFIC CSS -->
     {% block extra_css %}{% endblock %}
+
+    <!-- Protect protected pages -->
+    <script src="/static/js/protect.js"></script>
 </head>
 <body>
 
@@ -19,13 +22,17 @@
         <li><a href="/dashboard">Dashboard</a></li>
         <li><a href="#">Insights</a></li>
         <li><a href="#">Impact</a></li>
-        <li><a href="/login">Login</a></li>
+        <li><a href="#" onclick="logout(); return false;">Logout</a></li>
     </ul>
  <div class="nav-actions">
         <button id="themeToggle" class="theme-btn">🌙</button>
-        <a href="#" class="cta-btn">Get Started</a>
     </div>
-    <!-- <a href="/dashboard" class="cta-btn">Get Started</a> -->
+    <script>
+        function logout() {
+            localStorage.removeItem('token');
+            window.location.href = '/login';
+        }
+    </script>
 </nav>
 
 {% block content %}{% endblock %}
